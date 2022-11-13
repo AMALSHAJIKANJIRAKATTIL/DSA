@@ -1,0 +1,52 @@
+.parent-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.child1{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+img{
+    position: absolute;
+    bottom: 25px;
+}
+
+.child2{
+    background-color: aqua;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width:40%;
+    height: 100%;
+    background-color: cyan;
+    border-radius: 10px;
+}
+.desc{
+    padding: 10px;
+    width:60%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.btn{
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 20%;
+}

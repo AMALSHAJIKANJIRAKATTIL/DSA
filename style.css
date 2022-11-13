@@ -1,0 +1,38 @@
+
+div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table{
+    
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    width: 100px;
+}
+thead{
+    background-color: tomato;
+}
+.row1{
+    background-color: chocolate;
+}
+.row2{
+    background-color: darkgoldenrod;
+}
+.row3{
+    background-color:cornsilk;
+}
+
+.btn{
+    border: 1px solid black;
+    width:150px;
+    height: 80px;
+    border-radius: 10%;
+    background-color: antiquewhite;
+    
+}
